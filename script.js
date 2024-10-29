@@ -28,7 +28,7 @@ const fruits = [{
 
 fruits.forEach(function(Val){
     document.getElementById("result").innerHTML +=`
-    <div class="container">
+    <div class="container p-2">
         <div><img src="${Val.image}" width="200" height="160"></div>
         <p>${Val.name}</p>
         <p>${Val.price}€</p>
